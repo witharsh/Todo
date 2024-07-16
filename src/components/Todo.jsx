@@ -48,7 +48,7 @@ function Todo() {
     
 
   return (
-    <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
+    <div className='bg-white place-self-center w-full sm:w-11/12 sm:max-w-md flex flex-col p-7  sm:h-[auto] sm:min-h-[550px] h-full sm:rounded-xl'>
 
         {/* -----------------Title--------------- */}
         <div className='flex items-center mt-7 gap-2'>
